@@ -158,7 +158,8 @@ const petTypeOptions = [
     { value: 4, label: "fox" },
     { value: 5, label: "birb" },
     { value: 6, label: "bee" },
-    { value: 7, label: "bun" }
+    { value: 7, label: "bun" },
+    { value: 8, label: "donkey" }
 ] as const;
 
 const petWordsByType: Record<number, string[]> = {
@@ -168,7 +169,8 @@ const petWordsByType: Record<number, string[]> = {
     4: ["yip", "eeeekkkk", "waaaaaaaahh", "eeeee", "grrrrr", "grr-uff", "eeeek"],
     5: ["tweet", "squark", "chirp", "caw"],
     6: ["bzzzz", "buzz"],
-    7: ["squeak", "pyon"]
+    7: ["squeak", "pyon"],
+    8: ["hee-haw", "heehaw"]
 };
 
 const defaultLocalConfig: LocalConfig = {

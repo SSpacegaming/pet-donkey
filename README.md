@@ -163,7 +163,7 @@ This mode simulates the user having a gag in their mouth. Replacing text with so
 #### Pet
 This mode allows a random chance for words to be replaced with pet noises.
 
-There are 7 pet types:
+There are 8 pet types:
 
 - Puppy
 - Kitty
@@ -172,6 +172,7 @@ There are 7 pet types:
 - Bird
 - Bee
 - Bunny
+- Donkey
 
 You can set a percentage chance for each pet mode.
 

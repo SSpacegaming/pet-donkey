@@ -25,7 +25,10 @@ const requiredSnippets = [
     "label: \"Open Key Intercept Config Popup\"",
     "const [resolvedActiveUserId, setResolvedActiveUserId] = activeUserState;",
     "function applyRawJsonConfigPatch(currentConfig, rawJsonText) {",
-    "section(\"raw-json-apply\", \"Raw JSON Apply\""
+    "section(\"raw-json-apply\", \"Raw JSON Apply\"",
+    "const petTypeOptions = [",
+    "{ value: 8, label: \"donkey\" }",
+    "[\"hee-haw\", \"heehaw\"]"
 ];
 
 for (const snippet of requiredSnippets) {

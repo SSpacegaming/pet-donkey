@@ -23,7 +23,9 @@ const requiredSnippets = [
     "applyStep(\"bimbo\", applyBimbo);",
     "applyStep(\"censored\", applyCensored);",
     "applyStep(\"gag\", applyGag);",
-    "const droneResult = applyDrone(msg, channelId);"
+    "const droneResult = applyDrone(msg, channelId);",
+    "{ value: 8, label: \"donkey\" }",
+    "[\"hee-haw\", \"heehaw\"]"
 ];
 
 for (const snippet of requiredSnippets) {
