@@ -27,6 +27,7 @@ const requiredSnippets = [
     "function applyRawJsonConfigPatch(currentConfig, rawJsonText) {",
     "section(\"raw-json-apply\", \"Raw JSON Apply\"",
     "const petTypeOptions = [",
+    "mergedConfig.pet_type = petWordsByType[normalizedPetType] ? normalizedPetType : 1;",
     "{ value: 8, label: \"donkey\" }",
     "[\"hee-haw\", \"heehaw\"]"
 ];

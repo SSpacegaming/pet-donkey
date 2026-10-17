@@ -24,6 +24,7 @@ const requiredSnippets = [
     "applyStep(\"censored\", applyCensored);",
     "applyStep(\"gag\", applyGag);",
     "const droneResult = applyDrone(msg, channelId);",
+    "mergedConfig.pet_type = petWordsByType[normalizedPetType] ? normalizedPetType : 1;",
     "{ value: 8, label: \"donkey\" }",
     "[\"hee-haw\", \"heehaw\"]"
 ];
